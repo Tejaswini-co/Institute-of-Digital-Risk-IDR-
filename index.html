@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of Digital Risk (IDR)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <img src="assets/logo-full.svg" alt="IDR Logo">
+                </a>
+                <div class="hamburger">☰</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#model">Model</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Advancing the Future of Digital Risk</h1>
+                <p>IDR trains and deploys the next generation of digital risk professionals through collaboration between academia and industry.</p>
+                <div class="cta-group">
+                    <a href="#about" class="btn btn-primary">Explore Programs</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Talent</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2>Industry-led Institute for the Digital Era</h2>
+                    <p>The Institute of Digital Risk (IDR) is an industry-led institute focusing on resolving the talent gap in digital risk, cyber risk, and AI governance.</p>
+                    <p>In partnership with leading UK universities, we deliver specialised training, integrating real-world projects with industry practices to engineer resilient technology ecosystems.</p>
+                </div>
+                <div class="about-visual">
+                    <!-- Pure CSS geometric composition in style.css or an inline SVG -->
+                    <img src="assets/logo-icon.svg" alt="IDR Visual" style="width: 150px; opacity: 0.8;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Pillars -->
+        <section class="services bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Pillars</h2>
+                <p class="section-subtitle">IDR operates across three core pillars designed to train talent, develop innovation, and support organisations in implementing modern digital risk frameworks.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">📚</div>
+                        <h3>Academy</h3>
+                        <p>Training programs and bootcamps for students and professionals in digital and cyber risk.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>Innovation & Incubation</h3>
+                        <p>Developing intellectual property, AI governance models, and next-generation risk frameworks.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Advisory Services</h3>
+                        <p>Helping organisations implement frameworks such as NIST, ISO 27001, and NIS2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pipeline (Model) Section -->
+        <section id="model" class="pipeline">
+            <div class="container">
+                <h2 class="section-title">Our Operating Model</h2>
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="step-icon">1</div>
+                        <h3>Train</h3>
+                        <p>Equipping talent with industry skills.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">2</div>
+                        <h3>Hire</h3>
+                        <p>Matching experts to proper roles.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">3</div>
+                        <h3>Innovate</h3>
+                        <p>Fostering cutting-edge IP and governance.</p>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-icon">4</div>
+                        <h3>Deploy</h3>
+                        <p>Implementing resilient structures globally.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community">
+            <div class="container">
+                <h2 class="section-title">Who We Serve</h2>
+                <div class="community-grid">
+                    <div class="community-item">Students</div>
+                    <div class="community-item">Early-Career Professionals</div>
+                    <div class="community-item">Cybersecurity Practitioners</div>
+                    <div class="community-item">Financial Services</div>
+                    <div class="community-item">Critical Infrastructure</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Register Your Interest</h2>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="contact@idr.org">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Register Interest</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo-full.svg" alt="IDR Logo">
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#model">Model</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-contact">
+                    <p>contact@idr.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Institute of Digital Risk. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
